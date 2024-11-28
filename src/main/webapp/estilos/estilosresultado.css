@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(199, 238, 243);
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(20, 52, 78);
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+p span {
+    font-weight: bold;
+    color: #333;
+}

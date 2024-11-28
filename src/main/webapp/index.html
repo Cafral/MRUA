@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="estilos/estilosindex.css">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de valores</title>
+</head>
+<body>
+
+<h3>Ingrese los valores de aceleración, velocidad inicial y tiempo adicional</h3>
+
+<form method="POST" action="/mru/calculos">
+  <div>
+    <div>
+      <label for="aceleracion">Aceleración: </label>
+      <input type="number" name="aceleracion" id="aceleracion">
+    </div>
+    <div>
+      <label for="velocidadini">Velocidad inicial: </label>
+      <input type="number" name="velocidadini" id="velocidadini">
+    </div>
+    <div>
+      <label for="tiempoadi">Tiempo adicional: </label>
+      <input type="number" name="tiempoadi" id="tiempoadi">
+    </div>
+    <div>
+      <input type="submit" value="Calcular">
+    </div>
+  </div>
+</form>
+
+</body>
+</html>
